@@ -1,6 +1,6 @@
 #!/bin/bash
-# Define color variables
 
+# global variables
 export PUBLIC_BILLING_SERVICE=public-billing-service-xxx
 export FRONTEND_STAGING_SERVICE=frontend-staging-service-xxx
 export PRIVATE_BILLING_SERVICE=private-billing-service-xxx
@@ -99,8 +99,7 @@ gcloud run deploy $FRONTEND_PRODUCTION_SERVICE --image gcr.io/$DEVSHELL_PROJECT_
 
 echo
 
-# Display a random congratulatory message
-${CYAN}Incredible effort! This is a huge milestone for you!${RESET}
+${CYAN}Done!${RESET}
 
 echo -e "\n"  # Adding one blank line
 
