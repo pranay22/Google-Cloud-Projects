@@ -148,6 +148,6 @@ gcloud run deploy pdf-converter \
   --max-instances=1 \
   --set-env-vars PDF_BUCKET=$GOOGLE_CLOUD_PROJECT-processed
 
-echo "${BG_RED}${BOLD}Congratulations For Completing The Lab !!!${RESET}"
+echo "${BG_RED}${BOLD}Done!${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
