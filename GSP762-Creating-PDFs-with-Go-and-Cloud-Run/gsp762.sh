@@ -1,5 +1,4 @@
 #!/bin/bash
-# Define color variables
 export REGION=
 
 BG_RED=`tput setab 1`
@@ -76,6 +75,6 @@ gcloud pubsub subscriptions create pdf-conv-sub \
   --push-endpoint=$SERVICE_URL \
   --push-auth-service-account=pubsub-cloud-run-invoker@$GOOGLE_CLOUD_PROJECT.iam.gserviceaccount.com
 
-echo "${BG_RED}${BOLD}Congratulations For Completing The Lab !!!${RESET}"
+echo "${BG_RED}${BOLD}Done!${RESET}"
 
 ## ending lab
